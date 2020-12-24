@@ -1,0 +1,77 @@
+.timetable > table,th,tr,td {
+    border:2px solid black;
+    margin:20px;
+    z-index: -1;
+}
+
+.timetable-prompt {
+    height:auto;
+    width:85%;
+    margin:7.5%;
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.timetable-prompt > input {
+    width:90%;
+    margin-top:40px;
+    height:40px;
+    border:none;
+    padding-left: 10px;
+}
+
+.timetable-prompt > textarea  {
+    width:90%;
+    height:120px;
+    padding-left: 10px;
+}
+
+.timetable-prompt > button {
+    margin-bottom: 30px;
+    white-space: nowrap;
+}
+
+.table {
+    margin-top:50px;
+    overflow: auto;
+}
+
+.buttons {
+    margin-bottom: 40px;
+    margin-top:10px;
+}
+
+.buttons > button {
+    margin-right: 10px;
+}
+
+.changeTime {
+    margin-left: 2%;
+}
+
+.list-of-timetable-update {
+    background-image:linear-gradient(to right , white ,#a5a5a5, #ede9e6 , white);
+    margin-right:2%;
+    margin-left: 2%;
+    border-bottom: 1px solid gray;
+    height: 30px;
+}
+
+.update-timetable-list > li {
+   list-style-type: none;
+}
+
+.list-of-timetable-update >  p {
+    padding-left:30px;
+    font-weight: 500;
+}
+
+.list-of-timetable-update > p:hover  {
+    color: red;
+}
+
+.list-of-timetable-update > p > span {
+    text-transform: uppercase;
+}

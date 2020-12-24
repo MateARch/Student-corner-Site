@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Inconsolata:700');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.update_header h1 {
+    color: white;
+    margin-left: 30vh;
+}
+.update_header{
+    margin-top: -10vh;
+}
+.update_show-menu{
+    display: none;
+}
+
+body {
+    background-color: #3c4554;
+}
+
+.update_header > h3 {
+    color: rgb(184, 175, 175);
+    font-weight: lighter;
+    margin-left: 30vh;
+    padding-top: 1vh;
+}
+
+.update_menu > li {
+    list-style: none;
+    color: white;
+    padding-left: 40px;
+    padding-top: 1.3rem;
+    font-size: 1.1rem;
+    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.update_menu {
+    background-color: #272f38;
+    width: 60vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30vw;
+    margin-top: 5vh;
+    padding-bottom: 1.3rem;
+    border-radius: 0.5rem;
+}
+
+.update_sidebar {
+    float: left;
+    margin: 7.5% 0;
+    width: 32%;
+    display: block;
+}
+
+.update_menu > li:hover {
+    color: red;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+    font-family: 'Inconsolata';
+    cursor:pointer;
+}
+
+.update_header > h1:hover {
+    color: red;
+}
+
+.update_header > h3:hover {
+    color: red;
+}
+
+.update_container {
+    position: absolute;
+    margin-left: 35vh;
+    padding-top: 3vh;
+}
+
+@media only screen and (max-width:768px)
+{
+    .update_menu {
+        display: none;
+    }
+    .update_header {
+        position: fixed;
+        display: flex;
+        padding-top: 4rem;
+        background-color: #272f38;
+        width: 100%;
+        justify-content: center;
+        height: 30%;
+        flex-direction: column;
+        align-items: center
+    }
+    .update_header h1{
+        font-size: 1.5rem;     
+        margin-left: 6%; 
+        margin-top: -20%;
+
+    }
+    .update_header h3{
+        font-size: 1.2rem;
+        margin-left: 7%;
+    }
+    .update_line {
+        width: 20px;
+        height: 2px;
+        background: white;
+        margin: 2px;
+    }
+    .update_hamburger {
+        position: absolute;
+        cursor: pointer;
+        left: 63%;
+        top: 20%;
+        transform: translate(-5%, -50%);
+        z-index: 2;
+    }
+    .update_show-menu{
+        display: inherit;
+        position: absolute;
+        color:white;
+        font-size: 0.6rem;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        left: 45%;
+        top: 19%;
+    }
+    
+}
+@media only screen and (min-width: 768px)
+{
+    .update_menu{
+        margin-left: 15%;
+    }
+    .update_header>  h1{
+        margin-left: 15%;
+        margin-top: 4vh;
+        font-size: 1.5rem;
+    }
+    .update_header >  h3{
+        margin-left: 15%;
+    }
+
+    .update_container01 > input
+    {
+        margin-left: -27vh;        
+    }
+}
+@media only screen and (min-width: 1200px)
+{
+    .update_menu{
+        margin-left: 40%;
+
+    }
+    .update_header > h1{
+        margin-left: 40%;
+    }
+    .update_header > h3 {
+        margin-left: 40%;
+    }
+    .update_container01 > input{
+        margin-left: -6vh;
+    }
+}

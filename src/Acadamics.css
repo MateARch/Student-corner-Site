@@ -1,0 +1,40 @@
+.notice-image {
+    height: 800px;
+    width:100%;
+}
+
+.notice-upload {
+    margin:20px
+}
+
+.notice-content {
+    margin:70px;
+}
+
+.notice-heading-input  {
+    height: 50px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #FAFAFA;
+    border: 1px solid #EEE;
+    padding-left: 20px;
+    outline-width: 0;
+    font-size: 17px;
+}
+
+  
+.notice-list {
+    list-style: none;
+}
+
+.notice-heading {
+    font-size: 40px;
+    font-weight: 600;
+    margin:50px 0;
+}
+
+.notice-line {
+    height: 4px;
+    background-color: lightgray;
+    margin:80px -70px;
+}

@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Roboto+Condensed&display=swap');
+.about-content {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color:  #34495e;
+  }
+  
+  .team-section {
+    overflow: hidden;
+    text-align: center;
+    padding: 60px;
+  }
+  
+  .team-section h1 {
+    text-transform: uppercase;
+    margin-bottom: 60px;
+    color: white;
+    font-size: 40px;
+  }
+  
+  .border {
+    display: block;
+    margin: auto;
+    width: 160px;
+    height: 3px;
+    background: #3498db;
+    margin-bottom: 40px;
+  }
+  
+  .ps {
+    margin-bottom: 40px;
+  }
+  
+   .ps a {
+    display: inline-block;
+    margin: 0 30px;
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+  
+  .ps a:hover > img {
+    -webkit-filter: none;
+            filter: none;
+  }
+  
+  .ps a img {
+    width: 100%;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    -webkit-transition: 0.4s all;
+    transition: 0.4s all;
+    z-index: 100;
+  }
+  
+  .section {
+    width: 600px;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    text-align: justify;
+    height: 0;
+    overflow: hidden;
+  }
+  .section p{
+    font-family: 'Kalam', cursive;
+  }
+  
+  .section:target {
+    height: auto;
+  }
+  
+  .name {
+    display: block;
+    margin-bottom: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 22px;
+  }
+  /*# sourceMappingURL=style.css.map */

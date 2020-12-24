@@ -1,0 +1,74 @@
+.notes {
+    display: flex;
+
+}
+.notes-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    margin:60px;
+    border-radius: 10px;
+    height:400px;
+    width:250px
+}
+
+
+select {
+    margin-left: 10px;
+    width:100px;
+    height: 30px;
+    background-color: skyblue;
+}
+
+button {
+    height:50px;
+     width:150px;
+    background-color: cornflowerblue;
+    border:none;
+    border-radius: 5px;
+    outline-width: 0;
+    cursor: pointer;
+    margin-top: 20px;
+    color:white;
+    font-size: 14px;
+}
+
+.notes-list {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+    margin-left:60px;
+    margin: 60px;
+    border-radius: 10px;
+    height:400px;
+    width:250px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.subject-table {
+    margin:20px;
+}
+
+.note-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.note-01 > h3 {
+    margin-left: 10%;
+}
+
+.note-01 > select {
+   width:100px;
+}
+
+@media screen and (max-width: 900px) {
+    .notes {
+        flex-direction: column;
+    }
+}

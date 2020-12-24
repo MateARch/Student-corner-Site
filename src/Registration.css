@@ -1,0 +1,132 @@
+.registration {
+    height:auto;
+    background-color: #3c4554;
+    width:100vw;
+}
+
+.registration-section {
+    background-color:white;
+    margin-left:10vw;
+    margin-right:10vw;
+    height:auto;
+    border-bottom: 1px solid grey;
+    box-shadow: -20px 4px 20px -6px rgba(71, 70, 70, 0.2);
+    display: flex;
+    flex-direction: row;
+    width:auto;
+}
+
+.registration-info-1 {
+    display: flex;
+    flex-direction:column ;
+    padding:20px;
+}
+
+.registration-info-1-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.registration-info-1-1-1 {
+    padding:40px;
+    width:370px;
+}
+
+.registration-info-1-1-1 > h2 {
+    font-size:17px;
+}
+
+.registration-info-1-1-1 >p {
+    font-weight: 1;
+    padding:10px;
+    text-align: justify;
+}
+
+.registration-form {
+    background-color: #e84c3d ;
+    width:900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height:auto;
+}
+
+.registration-form > h2 {
+    font-weight: 2;
+    margin:30px;
+}
+
+.registration-form > input {
+    height:50px;
+    border: none;
+    outline-width:0;
+    width:250px;
+    padding-left:25px;
+    font-size: 16px;
+    color:grey;
+}
+
+.registration-icon-info {
+    display: flex;
+    align-items: center;
+}
+
+.registration-info-icon {
+    padding: 10px;
+    color:#e84c3d;
+}
+
+.registration-info-icon .MuiSvgIcon-root {
+    height: 40px;
+    width: 40px;
+}
+
+input::placeholder {
+    color:grey;
+    font-weight: 1;
+    font-size: 15px;
+}
+
+.btn {
+     height:50px;
+     width:150px;
+    background-color: cornflowerblue;
+    border:none;
+    outline-width: 0;
+    cursor: pointer;
+    margin-top: 20px;
+    color:white;
+    font-size: 14px;
+}
+
+.btn:hover {
+    background-color:rgb(59, 93, 155);
+}
+
+@media screen and (max-width :500px) {
+    .registration-info-1-1 {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .registration-info-1 {
+        width: 94vw;
+    }
+    .registration-section {
+        flex-direction: column;
+        margin:2vw;
+        width:94vw;
+    }
+    .registration-form {
+        width:94vw;
+    }
+    .registration-form >input {
+        width: 92%;
+    }
+    .registration-form >button {
+        margin-bottom: 70px;
+    }
+}
+

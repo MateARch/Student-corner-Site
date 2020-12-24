@@ -1,0 +1,18 @@
+.contribute-container {
+    margin:60px;
+}
+
+.contribute-container > h1 {
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.contribute-container >p {
+    font-size: 18px;
+    margin-bottom: 19px;
+}
+
+.hr-line {
+    height:5px;
+    background-color: lightgray;
+}
